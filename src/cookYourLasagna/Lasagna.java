@@ -7,6 +7,9 @@ public class Lasagna {
     }
 
     // TODO: define the 'remainingMinutesInOven()' method
+    public int remainingMinutesInOven(int actualMinutesInTheOven){
+        return 40 - actualMinutesInTheOven;
+    }
 
     // TODO: define the 'preparationTimeInMinutes()' method
 

@@ -20,7 +20,8 @@ public class Lasagna {
 
     // TODO: define the 'totalTimeInMinutes()' method
     public int totalTimeInMinutes(int numberOfLayers, int timeElapsed){
-        return 0;
+        int result = preparationTimeInMinutes(numberOfLayers) + timeElapsed;
+        return result;
     }
 }
 

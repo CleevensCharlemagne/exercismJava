@@ -12,6 +12,9 @@ public class Lasagna {
     }
 
     // TODO: define the 'preparationTimeInMinutes()' method
+    public int preparationTimeInMinutes(){
+        return 0;
+    }
 
     // TODO: define the 'totalTimeInMinutes()' method
 }

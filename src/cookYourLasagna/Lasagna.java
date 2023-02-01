@@ -12,8 +12,10 @@ public class Lasagna {
     }
 
     // TODO: define the 'preparationTimeInMinutes()' method
-    public int preparationTimeInMinutes(){
-        return 0;
+    public int preparationTimeInMinutes(int numberOfLayers){
+        int timeForOneLayer = 2;
+        int result = numberOfLayers * timeForOneLayer;
+        return result;
     }
 
     // TODO: define the 'totalTimeInMinutes()' method

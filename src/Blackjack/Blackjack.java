@@ -10,6 +10,8 @@ public class Blackjack {
             return 3;
         } else if(card.equals("four")){
             return 4;
+        } else if(card.equals("five")){
+            return 5;
         }
 
         return 0;

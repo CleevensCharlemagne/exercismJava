@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class Blackjack {
 
+    // return the number corresponding to the selted card
     public int parseCard(String card) {
         if(card.equals("ace")){
             return 11;
@@ -78,5 +79,11 @@ public class Blackjack {
         } else {
             return smallHand(handScore, dealerScore);
         }
+    }
+
+    public static void main(String []args){
+        Blackjack b = new Blackjack();
+        System.out.println(b.parseCard("ten"));
+        System.out.println(b.isBlackjack("queen", "ace"));
     }
 }

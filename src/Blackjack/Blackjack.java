@@ -39,6 +39,7 @@ public class Blackjack {
     public boolean isBlackjack(String card1, String card2) {
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         map.put("two", 2);
+        map.put("three", 3);
         return true;
     }
 

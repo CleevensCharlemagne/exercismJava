@@ -4,7 +4,9 @@ public class Blackjack {
     public int parseCard(String card) {
         if(card.equals("ace")){
             return 11;
-
+        } else if(card.equals("two")){
+            return 2;
+        }
 
         return 0;
     }

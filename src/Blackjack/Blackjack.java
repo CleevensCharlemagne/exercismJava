@@ -79,11 +79,4 @@ public class Blackjack {
         } else {
             return smallHand(handScore, dealerScore);
         }
-    }
-
-    public static void main(String []args){
-        Blackjack b = new Blackjack();
-        System.out.println(b.parseCard("ten"));
-        System.out.println(b.isBlackjack("queen", "ace"));
-    }
-}
+}}

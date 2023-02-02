@@ -2,7 +2,11 @@ package Blackjack;
 public class Blackjack {
 
     public int parseCard(String card) {
-        throw new UnsupportedOperationException("Please implement the Blackjack.parseCard method");
+        if(card.equals("ace")){
+            return 11;
+
+
+        return 0;
     }
 
     public boolean isBlackjack(String card1, String card2) {

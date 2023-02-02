@@ -16,6 +16,8 @@ public class Blackjack {
             return 6;
         } else if(card.equals("seven")){
             return 7;
+        } else if(card.equals("eight")){
+            return 8;
         }
 
         return 0;

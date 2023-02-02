@@ -1,4 +1,7 @@
 package Blackjack;
+
+import java.util.HashMap;
+
 public class Blackjack {
 
     public int parseCard(String card) {
@@ -34,7 +37,9 @@ public class Blackjack {
     }
 
     public boolean isBlackjack(String card1, String card2) {
-        throw new UnsupportedOperationException("Please implement the Blackjack.isBlackjack method");
+        HashMap<String, Integer> map = new HashMap<String, Integer>();
+        map.put("two", 2);
+        return true;
     }
 
     public String largeHand(boolean isBlackjack, int dealerScore) {

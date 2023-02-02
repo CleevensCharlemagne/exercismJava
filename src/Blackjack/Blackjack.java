@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Blackjack {
 
-    // return the number corresponding to the selted card
+    // return the number corresponding to the selcted card
     public int parseCard(String card) {
         if(card.equals("ace")){
             return 11;

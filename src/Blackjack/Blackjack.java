@@ -45,6 +45,7 @@ public class Blackjack {
         map.put("six", 6);
         map.put("seven", 7);
         map.put("eight", 8);
+        map.put("nine", 9);
         return true;
     }
 

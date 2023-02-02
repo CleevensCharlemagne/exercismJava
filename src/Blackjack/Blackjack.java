@@ -40,6 +40,7 @@ public class Blackjack {
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         map.put("two", 2);
         map.put("three", 3);
+        map.put("four", 4);
         return true;
     }
 

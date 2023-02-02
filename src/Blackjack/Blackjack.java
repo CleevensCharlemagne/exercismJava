@@ -22,6 +22,12 @@ public class Blackjack {
             return 9;
         } else if(card.equals("ten")){
             return 10;
+        } else if(card.equals("jack")){
+            return 10;
+        } else if(card.equals("queen")){
+            return 10;
+        } else if(card.equals("king")){
+            return 10;
         }
 
         return 0;

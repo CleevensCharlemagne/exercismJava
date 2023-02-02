@@ -47,7 +47,15 @@ public class Blackjack {
         map.put("eight", 8);
         map.put("nine", 9);
         map.put("ten", 10);
-        return true;
+        map.put("jack", 10);
+        map.put("queen", 10);
+        map.put("king", 10);
+        map.put("ace", 11);
+
+        if (map.get(card1) + map.get(card2) == 21){
+            return true;
+        }
+        return false;
     }
 
     public String largeHand(boolean isBlackjack, int dealerScore) {

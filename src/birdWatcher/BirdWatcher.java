@@ -10,6 +10,7 @@ class BirdWatcher {
 
     public int[] getLastWeek() {
         return this.birdsPerDay;
+
     }
 
     public int getToday() {
@@ -45,12 +46,9 @@ class BirdWatcher {
 
     public int getBusyDays() {
         int acc = 0;
-        boolean empty = true;
-        for (int i=0; i<arr.length; i++) {
-            if (arr[i] != null) {
-                empty = false;
-                break;
-            }
+        boolean empty = false;
+        if(this.birdsPerDay.length == 0){
+            empty = true;
         }
 
         if(isEmpty){

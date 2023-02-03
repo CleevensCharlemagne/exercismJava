@@ -29,6 +29,8 @@ class BirdWatcher {
                 break;
             }
         }
+
+        return foundZero;
     }
 
     public int getCountForFirstDays(int numberOfDays) {

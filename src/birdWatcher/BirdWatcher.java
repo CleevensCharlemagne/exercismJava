@@ -9,6 +9,7 @@ class BirdWatcher {
     }
 
     public int[] getLastWeek() {
+
         return this.birdsPerDay;
 
     }

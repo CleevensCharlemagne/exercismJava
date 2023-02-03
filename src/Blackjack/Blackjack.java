@@ -77,9 +77,10 @@ public class Blackjack {
             return "S";
         } else if (handScore <= 11){
             return "H";
-        } else if (dealerScore > 7){
+        } else if (dealerScore >= 7){
             return "H";
         }
+
     }
 
     // FirstTurn returns the semi-optimal decision for the first turn, given the cards of the player and the dealer.

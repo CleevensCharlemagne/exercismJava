@@ -35,6 +35,7 @@ class BirdWatcher {
         for(int i = 0; i < this.birdsPerDay.length; i++){
 
             if (this.birdsPerDay[i] == 0){
+
                 foundZero = true;
                 break;
             }

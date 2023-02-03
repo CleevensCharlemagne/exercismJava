@@ -51,6 +51,7 @@ class BirdWatcher {
                 acc++;
             }
         }
+        return acc;
     }
 }
 

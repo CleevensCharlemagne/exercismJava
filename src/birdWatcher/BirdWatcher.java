@@ -45,6 +45,10 @@ class BirdWatcher {
 
     public int getBusyDays() {
         int acc = 0;
+
+        for (int i = 0; i < this.birdsPerDay.length; i++){
+
+        }
     }
 }
 

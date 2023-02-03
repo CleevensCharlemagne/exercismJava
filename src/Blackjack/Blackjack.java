@@ -62,11 +62,14 @@ public class Blackjack {
     public String largeHand(boolean isBlackjack, int dealerScore) {
         if(isBlackjack){
             if((dealerScore >= 1) && (dealerScore <= 9)){
-                return 'W';
+                return
+                        "W";
             } else{
-                return 'S';
+                return "S";
             }
         }
+
+        return "P";
     }
 
     public String smallHand(int handScore, int dealerScore) {

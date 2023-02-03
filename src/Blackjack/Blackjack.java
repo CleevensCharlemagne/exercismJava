@@ -81,6 +81,7 @@ public class Blackjack {
             return "H";
         }
 
+        return "S";
     }
 
     // FirstTurn returns the semi-optimal decision for the first turn, given the cards of the player and the dealer.

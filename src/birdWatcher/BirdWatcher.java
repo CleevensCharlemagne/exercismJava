@@ -23,6 +23,7 @@ class BirdWatcher {
     }
 
     public void incrementTodaysCount() {
+
         this.birdsPerDay[this.birdsPerDay.length - 1] += 1;
     }
 

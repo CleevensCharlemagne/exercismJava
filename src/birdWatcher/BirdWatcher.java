@@ -35,6 +35,10 @@ class BirdWatcher {
 
     public int getCountForFirstDays(int numberOfDays) {
         int sum = 0;
+
+        for (int i = 0; i < numberOfDays; i++){
+
+        }
     }
 
     public int getBusyDays() {

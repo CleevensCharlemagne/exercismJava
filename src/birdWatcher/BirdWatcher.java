@@ -5,6 +5,7 @@ class BirdWatcher {
     private final int[] birdsPerDay;
 
     public BirdWatcher(int[] birdsPerDay) {
+
         this.birdsPerDay = birdsPerDay.clone();
     }
 

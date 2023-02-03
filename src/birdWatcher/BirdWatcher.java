@@ -44,7 +44,7 @@ class BirdWatcher {
     }
 
     public int getBusyDays() {
-        throw new UnsupportedOperationException("Please implement the BirdCount.getBusyDays() method");
+
     }
 }
 

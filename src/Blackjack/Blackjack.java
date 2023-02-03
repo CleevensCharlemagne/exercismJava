@@ -63,6 +63,8 @@ public class Blackjack {
         if(isBlackjack){
             if((dealerScore >= 1) && (dealerScore <= 9)){
                 return 'W';
+            } else{
+                return 'S';
             }
         }
     }

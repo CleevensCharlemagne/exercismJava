@@ -44,7 +44,7 @@ class BirdWatcher {
     }
 
     public int getBusyDays() {
-
+        int acc = 0;
     }
 }
 

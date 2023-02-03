@@ -9,10 +9,8 @@ class BirdWatcher {
     }
 
     public int[] getLastWeek() {
-        int [] last_week = new int[7];
-        for(int i = 0; i < 7; i++){
-
-        }
+        int [] tab = {0, 2, 5, 3, 7, 8, 4};
+        return tab;
     }
 
     public int getToday() {

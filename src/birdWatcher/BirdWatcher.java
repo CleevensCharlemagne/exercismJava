@@ -57,6 +57,7 @@ class BirdWatcher {
         }
 
         return sum;
+
     }
 
     public int getBusyDays() {

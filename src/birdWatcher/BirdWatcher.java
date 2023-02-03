@@ -45,6 +45,11 @@ class BirdWatcher {
 
     public int getBusyDays() {
         int acc = 0;
+        boolean isEmpty = false;
+
+        for(int a : this.birdsPerDay){
+            if
+        }
 
         for (int i = 0; i < this.birdsPerDay.length; i++){
             if (this.birdsPerDay[i] >= 5){

@@ -39,6 +39,7 @@ class BirdWatcher {
                 foundZero = true;
 
                 break;
+
             }
         }
 

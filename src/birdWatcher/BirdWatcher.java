@@ -51,6 +51,7 @@ class BirdWatcher {
         int sum = 0;
 
         for (int i = 0; i < numberOfDays; i++){
+
             sum += this.birdsPerDay[i];
         }
 

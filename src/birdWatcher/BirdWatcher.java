@@ -21,11 +21,10 @@ class BirdWatcher {
     }
 
     public boolean hasDayWithoutBirds() {
-        boolean foundZero = false;
-
-        for(int i = 0; i < this.birdsPerDay.length; i++){
-            if (this.birdsPerDay[i] == 0){
-                foundZero = true;
+        boolean empty = true;
+        for (int i=0; i<arr.length; i++) {
+            if (arr[i] != null) {
+                empty = false;
                 break;
             }
         }
@@ -52,6 +51,10 @@ class BirdWatcher {
                 isEmpty = false;
                 break;
             }
+        }
+
+        if(isEmpty){
+            return 0;
         }
 
         for (int i = 0; i < this.birdsPerDay.length; i++){

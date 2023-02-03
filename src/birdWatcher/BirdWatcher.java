@@ -9,7 +9,8 @@ class BirdWatcher {
     }
 
     public int[] getLastWeek() {
-        for(int i = 0; i < birdsPerDay.length; i++){
+        int [] last_week = new int[7];
+        for(int i = 0; i < 7; i++){
 
         }
     }

@@ -14,7 +14,7 @@ class BirdWatcher {
     }
 
     public int getToday() {
-        throw new UnsupportedOperationException("Please implement the BirdCount.getToday() method");
+        return this.getLastWeek()[getLastWeek().length - 1];
     }
 
     public void incrementTodaysCount() {

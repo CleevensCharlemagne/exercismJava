@@ -67,6 +67,7 @@ class BirdWatcher {
         boolean empty = false;
 
         if(this.birdsPerDay.length == 0){
+
             empty = true;
         }
 

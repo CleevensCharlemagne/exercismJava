@@ -17,6 +17,7 @@ class BirdWatcher {
     }
 
     public int getToday() {
+
         return this.getLastWeek()[getLastWeek().length - 1];
     }
 

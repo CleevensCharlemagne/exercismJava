@@ -9,8 +9,7 @@ class BirdWatcher {
     }
 
     public int[] getLastWeek() {
-        int [] tab = {0, 2, 5, 3, 7, 8, 4};
-        return tab;
+        return this.birdsPerDay;
     }
 
     public int getToday() {
@@ -18,7 +17,7 @@ class BirdWatcher {
     }
 
     public void incrementTodaysCount() {
-        throw new UnsupportedOperationException("Please implement the BirdCount.incrementTodaysCount() method");
+        this.birdsPerDay[this.birdsPerDay.length - 1] += 1;
     }
 
     public boolean hasDayWithoutBirds() {

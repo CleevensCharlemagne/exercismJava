@@ -63,6 +63,7 @@ class BirdWatcher {
     public int getBusyDays() {
 
         int acc = 0;
+
         boolean empty = false;
         if(this.birdsPerDay.length == 0){
             empty = true;

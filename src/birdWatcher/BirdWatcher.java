@@ -47,8 +47,10 @@ class BirdWatcher {
         int acc = 0;
         boolean isEmpty = false;
 
-        for(int a : this.birdsPerDay){
-            if
+        for(int i = 0; i < this.birdsPerDay.length; i++){
+            if (a.iseq null){
+
+            }
         }
 
         for (int i = 0; i < this.birdsPerDay.length; i++){

@@ -39,6 +39,8 @@ class BirdWatcher {
         for (int i = 0; i < numberOfDays; i++){
             sum += this.birdsPerDay[i];
         }
+
+        return sum;
     }
 
     public int getBusyDays() {

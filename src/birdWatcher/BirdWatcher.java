@@ -66,12 +66,6 @@ class BirdWatcher {
 
 
 
-        if(this.birdsPerDay.length == 0){
-
-            empty = true;
-
-        }
-
         for (int i = 0; i < this.birdsPerDay.length; i++){
             if (this.birdsPerDay[i] >= 5){
                 acc++;

@@ -64,7 +64,7 @@ class BirdWatcher {
 
         int acc = 0;
 
-        if(this.birdsPerday.length == 0){
+        if(this.birdsPerDay.length == 0){
             return 0;
         }
 
